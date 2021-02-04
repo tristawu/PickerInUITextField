@@ -152,7 +152,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         
         //選擇完後可以隱藏 UIPickerView 或 UIDatePicker
         //點擊空白處可以隱藏編輯狀態的功能
-        // 增加一個觸控事件
+        //增加一個觸控事件
         let tap = UITapGestureRecognizer(target: self,action:#selector(ViewController.hideKeyboard))
 
         tap.cancelsTouchesInView = false
